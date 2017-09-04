@@ -1,0 +1,30 @@
+<c3p0-config>
+  <default-config>
+  <!-- ![[CDATA]内容批量转义] -->
+    <property name="jdbcUrl">jdbc:mysql:///hotel?userUnicode=true&amp;characterEncoding=utf8</property>
+    <property name="driverClass">com.mysql.jdbc.Driver</property>
+    <property name="user">root</property>
+    <property name="password">root</property>
+    <property name="maxIdleTime">1000</property>
+    <property name="maxPoolSize">6</property>
+    <property name="InitialPoolSize">3</property>
+  </default-config>
+    <!--
+    <user-overrides user="swaldman">
+      <property name="debugUnreturnedConnectionStackTraces">true</property>
+    </user-overrides>
+    -->
+
+
+
+<!--
+  <named-config name="dumbTestConfig">
+    <property name="maxStatements">200</property>
+    <property name="jdbcUrl">jdbc:test</property>
+    <user-overrides user="poop">
+      <property name="maxStatements">300</property>
+    </user-overrides>
+   </named-config>
+-->
+
+</c3p0-config>
