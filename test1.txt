@@ -1,2 +1,4 @@
 Hello Git!!
 我修改了文件
+Hello 没有
+my name is 刘
